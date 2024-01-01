@@ -1,0 +1,21 @@
+
+.Article_CategoriesPage{
+    /* margin-bottom: 56px;
+    padding: 44px; */
+    border-radius: 32px;
+    background: rgb(179,108,205);
+  background: linear-gradient(90deg, rgba(229, 222, 231, 0.626) 0%, rgba(142, 142, 138, 0.42) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container_box{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 150px;
+    
+}
+
+.card_image{
+    height: 200px;
+}

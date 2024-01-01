@@ -1,0 +1,27 @@
+.sectionImage{
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.section_container{
+    margin: 50px 0px;
+}
+
+.row_section{
+    display: block;
+    justify-content: space-evenly;
+}
+.title_header,
+.body_section{
+    color: black;
+}
+@media screen and (max-width: 576px)  {
+    .Listen_button{
+        margin: 20px 0px;
+    }
+
+    .title_header{
+        /* margin-top: 0px; */
+    }
+}
