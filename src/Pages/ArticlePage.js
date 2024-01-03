@@ -31,7 +31,7 @@ const ArticlePage = () => {
             </div> */}
 
             <div className='article_header_image'>
-                <Image className='image_header' src={mindset} />
+                {/* <Image className='image_header' src={mindset} /> */}
             </div>
 
 

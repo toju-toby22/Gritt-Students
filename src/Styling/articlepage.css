@@ -27,6 +27,7 @@
 .post{
     width: 80%;
     margin: 0 auto;
+    padding: 30px;
 }
 
 .post > p{

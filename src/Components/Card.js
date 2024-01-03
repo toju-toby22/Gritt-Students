@@ -2,12 +2,16 @@ import React, { useRef, useState, useEffect } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
-import cardimg from '..//Assets/OIP.jpeg'
+import cardimg from '..//Assets/blog-gemini-1024x683.png'
 import '../Styling/card.css'
 import { motion } from 'framer-motion';
 import { useScroll } from 'framer-motion';
 import { Link } from 'react-router-dom'
 import fb from "../firebase";
+
+
+
+
 const DB = fb.firestore()
 const Blogslist = DB.collection('blogs');
 
