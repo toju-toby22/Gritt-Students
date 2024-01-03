@@ -27,6 +27,7 @@
 .post{
     width: 80%;
     margin: 0 auto;
+    padding-top: 80px;
 }
 
 .post > p{
@@ -40,7 +41,7 @@
 .blog{
     margin: 50px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    padding: 30px;
+    /* padding: 30px; */
 
 }
 
